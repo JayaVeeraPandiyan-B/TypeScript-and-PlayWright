@@ -1,0 +1,55 @@
+* TypeScript la class create pananum na "class" keyword use pananum, class name "Pascal" Upper case la tha start pannanum athu tha standard
+
+* Read-Only: - oru variable ku value assign panalam, reassign/modify panamudiyathu athuvum constructor moolama tha assign pana mudiyum. Oru vaati tha assign panna mudiyum
+
+* Oru class na - Class, Conctructor and method combination irukanum
+
+* TypeScript la Object create pananum na class venum
+
+* Structure -> Class (Constructor -> Method) -> (outside the calss) "Object" -> Execution
+
+Example:
+</> TypeScript
+```ts
+//Class
+class Student   {
+    readonly studentID:number;
+    name : string;
+    email? : string;
+    //schoolName : string;
+
+// Constructor
+constructor (id:number, name:string, email?:string)  {
+    this.studentID=id;
+    this.name=name;
+    this.email=email; // email pass panala na ithu undefined
+}
+
+//Method
+displayInfo() : void    {
+
+    console.log("Student id is:",this.studentID);
+    console.log("Student name is:",this.name);
+
+    if(this.email)    {
+        console.log("Email id is:", this.email);
+    } else  {
+        console.log("Oops - Email id not provided!!");
+    }
+}
+
+}
+
+//Object
+
+let obj1 = new Student(2000105128, "Jaya Veera Pandiyan B");
+let obj2 = new Student(200010512, "Jaya Veera Pandiyan B", "jayaveerapandiyanb@gmail.com");
+
+//Execution
+console.log("Object 1 with optional email");
+obj1.displayInfo();
+console.log();
+console.log("Object 2 with email");
+obj2.displayInfo();
+```
+
