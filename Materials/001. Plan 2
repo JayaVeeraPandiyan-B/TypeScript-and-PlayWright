@@ -1,0 +1,327 @@
+1️⃣ Variables (Scope, Hoisting, Reassignment) – 10 Questions
+
+1. Company dashboard la API base URL constant ah declare panna epdi?
+
+2. Employee count variable declare panni later update panna epdi?
+
+3. var, let, const difference real project example kuduthu explain pannunga.
+
+4. const object declare pannina properties change panna mudiyuma?
+
+5. Loop la var use pannumbothu closure bug epdi varum?
+
+6. Hoisting problem detect pannura debugging scenario create pannunga.
+
+7. Block scope variable outside access panna try pannina enna nadakkum?
+
+8. Global variable accidental override problem epdi avoid pannuvenga?
+
+9. Async callback la variable value wrong ah print aagura issue solve pannunga.
+
+10. Environment configuration variables epdi manage pannuvenga?
+
+2️⃣ Data Types – 10 Questions
+
+11. User profile API response ku strict type create pannunga.
+
+12. Login system la email, password, rememberMe types define pannunga.
+
+13. any type use panna project la varra risk enna?
+
+14. unknown vs any difference example kudunga.
+
+15. Array of numbers ku type epdi define pannuvenga?
+
+16. Nested object type define panna scenario create pannunga.
+
+17. Product object la optional property create pannunga.
+
+18. Function return type enforce panna example kudunga.
+
+19. Union type use panni string or number input accept panna function create pannunga.
+
+20. Nullable value handle panna type epdi define pannuvenga?
+
+3️⃣ Operators – 10 Questions
+
+21. Shopping cart total calculate panna arithmetic operators use pannunga.
+
+22. Assignment operator use panni wallet balance update pannunga.
+
+23. Increment operator use panni page visit counter maintain pannunga.
+
+24. Relational operator use panni age verification system create pannunga.
+
+25. Logical operator use panni login access check pannunga.
+
+26. Ternary operator use panni premium user check pannunga.
+
+27. Discount apply panna condition logic implement pannunga.
+
+28. Multiple conditions combine pannura scenario create pannunga.
+
+29. Boolean flags use panni feature toggle implement pannunga.
+
+30. Salary comparison logic implement pannunga.
+
+4️⃣ Conditional Statements – 10 Questions
+
+31. E-commerce site la discount rules implement pannunga.
+
+32. Movie rating based on age restriction check pannunga.
+
+33. Switch use panni order status handle pannunga.
+
+34. Nested if use panni bank loan eligibility check pannunga.
+
+35. API error code handle pannura switch-case create pannunga.
+
+36. User role based dashboard routing implement pannunga.
+
+37. Login failure attempts track pannunga.
+
+38. Temperature based weather message display pannunga.
+
+39. Subscription plan validation implement pannunga.
+
+40. Traffic light system logic create pannunga.
+
+5️⃣ Loops – 10 Questions
+
+41. Product list iterate panni console print pannunga.
+
+42. for loop use panni numbers sum calculate pannunga.
+
+43. while loop use panni login attempts track pannunga.
+
+44. do-while loop use panni OTP validation implement pannunga.
+
+45. break use panni order processing stop pannunga.
+
+46. continue use panni invalid records skip pannunga.
+
+47. Nested loop use panni matrix print pannunga.
+
+48. Pagination logic simulate pannunga.
+
+49. Large dataset iterate pannura performance scenario explain pannunga.
+
+50. Loop use panni duplicate values remove pannunga.
+
+6️⃣ Functions – 10 Questions
+
+51. Named function use panni tax calculate pannunga.
+
+52. Anonymous function use panni sorting implement pannunga.
+
+53. Arrow function use panni array filtering pannunga.
+
+54. Default parameters use pannura example create pannunga.
+
+55. Function return type strict ah enforce pannunga.
+
+56. Function inside function create pannura scenario explain pannunga.
+
+57. Utility function create pannunga for date formatting.
+
+58. Function reuse pattern design pannunga.
+
+59. Input validation function create pannunga.
+
+60. Recursive function use panni factorial calculate pannunga.
+
+7️⃣ Callback Functions & Overloading – 10 Questions
+
+61. Payment processing callback implement pannunga.
+
+62. File upload success/failure callback create pannunga.
+
+63. Search function overload pannunga (name / id).
+
+64. Calculator overload pannunga.
+
+65. Callback use panni async API result handle pannunga.
+
+66. Event handler callback implement pannunga.
+
+67. Retry mechanism callback implement pannunga.
+
+68. Logging callback create pannunga.
+
+69. Notification system callback create pannunga.
+
+70. Data transformation callback example create pannunga.
+
+8️⃣ Arrays & Methods – 15 Questions
+
+71. push use panni product add pannunga.
+
+72. pop use panni last element remove pannunga.
+
+73. shift use panni first element remove pannunga.
+
+74. unshift use panni element add pannunga.
+
+75. concat use panni two arrays merge pannunga.
+
+76. slice use panni array portion extract pannunga.
+
+77. splice use panni element replace pannunga.
+
+78. indexOf use panni item position find pannunga.
+
+79. includes use panni element check pannunga.
+
+80. toString use panni array convert pannunga.
+
+81. forEach use panni log pannunga.
+
+82. map use panni prices convert pannunga.
+
+83. filter use panni active users select pannunga.
+
+84. reduce use panni order total calculate pannunga.
+
+85. some / every use panni validation implement pannunga.
+
+9️⃣ String Methods – 10 Questions
+
+86. User input trim pannunga.
+
+87. Email domain check pannunga.
+
+88. Password strength validation implement pannunga.
+
+89. Username capitalize pannunga.
+
+90. Word count calculate pannunga.
+
+91. Replace banned words in comments.
+
+92. CSV string split pannunga.
+
+93. URL slug generate pannunga.
+
+94. Prefix check pannunga (startsWith).
+
+95. Suffix validation pannunga (endsWith).
+
+🔟 Objects – 10 Questions
+
+96. Product object create pannunga.
+
+97. Nested object define pannunga.
+
+98. Type alias use panni object structure define pannunga.
+
+99. Object destructuring example create pannunga.
+
+100. Optional property handle pannunga.
+
+101. Object merge pannunga.
+
+102. Dynamic property access implement pannunga.
+
+103. API response object validate pannunga.
+
+104. Immutable object pattern implement pannunga.
+
+105. Object clone create pannunga.
+
+1️⃣1️⃣ Classes – 10 Questions
+
+106. User class create pannunga.
+
+107. Readonly id property implement pannunga.
+
+108. Static companyName property add pannunga.
+
+109. Constructor use panni object initialize pannunga.
+
+110. Getter/setter implement pannunga.
+
+111. Private property access restriction implement pannunga.
+
+112. Utility static method create pannunga.
+
+113. Object instance create pannunga.
+
+114. Class method chaining example create pannunga.
+
+115. Singleton class implement pannunga.
+
+1️⃣2️⃣ Inheritance – 10 Questions
+
+116. Vehicle base class create pannunga.
+
+117. Car subclass create pannunga.
+
+118. super() call implement pannunga.
+
+119. Method override example create pannunga.
+
+120. Access modifiers difference explain pannunga.
+
+121. Protected property access example create pannunga.
+
+122. Polymorphism example implement pannunga.
+
+123. Multi-level inheritance example create pannunga.
+
+124. Abstract class example create pannunga.
+
+125. Method override validation implement pannunga.
+
+1️⃣3️⃣ Interfaces – 10 Questions
+
+126. Basic interface create pannunga.
+
+127. Optional property add pannunga.
+
+128. Readonly property add pannunga.
+
+129. Function type interface define pannunga.
+
+130. Interface implement pannura class create pannunga.
+
+131. Multiple interfaces extend pannunga.
+
+132. API response interface define pannunga.
+
+133. Interface vs type alias difference explain pannunga.
+
+134. Interface merging example create pannunga.
+
+135. Config object interface create pannunga.
+
+1️⃣4️⃣ Modules – 15 Questions
+
+136. math.ts file export function create pannunga.
+
+137. Named import example create pannunga.
+
+138. Alias import use pannunga.
+
+139. Import everything example create pannunga.
+
+140. Default export implement pannunga.
+
+141. Utility module create pannunga.
+
+142. Logger module design pannunga.
+
+143. Constants module create pannunga.
+
+144. API service module create pannunga.
+
+145. Module dependency manage pannunga.
+
+146. Circular dependency problem explain pannunga.
+
+147. Reusable module design pannunga.
+
+148. Module folder structure design pannunga.
+
+149. Barrel export pattern implement pannunga.
+
+150. Multi-module TypeScript project structure design pannunga.
