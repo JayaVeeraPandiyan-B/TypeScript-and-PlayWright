@@ -1,0 +1,616 @@
+---
+#1. API - Advanced_Theory Questions
+
+1. Explain REST API best practices.
+2. What are the advantages and limitations of REST APIs?
+3. When would you prefer GraphQL over REST?
+4. What are the challenges in API automation?
+5. What is contract-first API development?
+6. What is consumer-driven contract testing?
+7. Explain statelessness in REST APIs.
+8. Explain synchronous vs asynchronous APIs.
+9. What is eventual consistency in distributed systems?
+10. Explain retry mechanisms and timeout handling in APIs.
+11. What are common security vulnerabilities in APIs?
+12. What is API gateway and why is it used?
+---
+
+---
+#2. API - Practical_Scenario-Based Questions
+
+1. How would you test an API if no documentation is available?
+2. How do you identify whether an issue is from frontend, backend, or database?
+3. What validations would you perform after creating a resource using POST API?
+4. How do you validate database changes after API execution?
+5. How do you handle expired tokens in automation?
+6. How would you automate APIs with dynamic request and response data?
+7. How do you validate nested JSON responses?
+8. How would you test APIs in a microservices architecture?
+9. How do you handle flaky API tests?
+10. How do you perform regression testing for APIs?
+11. How do you validate APIs in CI/CD pipelines?
+12. How would you test APIs under heavy load?
+13. How do you troubleshoot intermittent API failures?
+14. How do you validate API backward compatibility after version changes?
+---
+
+---
+#3. API - Rest Assured & API Automation
+
+1. What is Rest Assured?
+2. Explain RequestSpecification and ResponseSpecification in Rest Assured.
+3. Explain POJO usage in API automation.
+4. How do you create POST requests using JSON payloads?
+5. How do you validate JSON schema programmatically?
+6. How do you automate API testing using Rest Assured?
+7. How do you pass headers in API automation?
+8. How do you handle authentication tokens in automation?
+9. How do you validate JSON responses in automation?
+10. How do you manage dynamic data in API automation frameworks?
+11. How do you perform request chaining in Rest Assured?
+12. How do you implement data-driven API automation?
+13. How do you structure an API automation framework?
+---
+
+---
+#4. API - Postman
+
+1. What is Postman and why is it used?
+2. Explain collections, workspaces, environments, and variables in Postman.
+3. Difference between Global, Environment, and Collection variables.
+4. How do you import and export collections?
+5. Explain Pre-request Scripts and Test Scripts.
+6. What is Collection Runner?
+7. What is Newman?
+8. How do you automate API testing using Postman?
+9. How do you pass headers, query parameters, and payloads in Postman?
+10. How do you validate response status codes in Postman?
+11. How do you save mock responses?
+12. How do you generate API documentation using Postman?
+13. How do you integrate Postman collections into CI/CD pipelines?
+14. Advantages of Postman compared to other API tools.
+---
+
+---
+#5. API - Testing Concepts
+
+1. What is API testing?
+2. What validations are important in API testing?
+3. How do you test negative scenarios in APIs?
+4. What is schema validation?
+5. What is contract testing?
+6. How do you validate API response body and schema?
+7. How do you validate JSON responses programmatically?
+8. How do you validate form-data responses?
+9. How do you test response time and performance?
+10. How do you debug API failures like 500 Internal Server Error?
+11. How do you test standalone APIs and third-party integrated APIs?
+12. How do you test GraphQL APIs?
+13. How do you test SOAP APIs?
+14. What is mocking in API testing?
+15. What are Mock Servers and Monitors?
+16. How do you perform data-driven API testing?
+17. How do you handle dynamic values in API testing?
+18. How do you chain API requests?
+19. What is server-side validation?
+20. How do you upload files using APIs or Postman?
+21. How do you test APIs that require VPN access?
+---
+
+---
+#6. API - Authentication & Security
+
+1. What is authentication and authorization?
+2. Difference between authentication and authorization.
+3. Explain different API authentication mechanisms.
+4. What is Basic Authentication?
+5. What is Bearer Token Authentication?
+6. What is OAuth 2.0?
+7. What is JWT (JSON Web Token)?
+8. What is API Key authentication?
+9. How do you secure an API?
+10. How do you securely store credentials in Postman or automation frameworks?
+11. How do you handle OAuth and Basic Authentication in automation?
+12. How do you handle SSL certificates in API automation?
+---
+
+---
+#7. API - HTTP Methods & Status Codes
+
+1. Explain HTTP request and HTTP response components.
+2. Explain HTTP methods: GET, POST, PUT, PATCH, DELETE.
+3. Difference between GET and POST.
+4. Difference between PUT and PATCH.
+5. What is DELETE method used for?
+6. Difference between query parameters and path parameters.
+7. Explain important HTTP status codes used in API testing.
+8. Explain 200, 201, and 204 status codes.
+9. What is 400 Bad Request?
+10. Difference between 401 and 403.
+11. What is 404 Not Found?
+12. What is 500 Internal Server Error?
+13. Difference between 502 and 503 errors.
+---
+
+---
+#8. API - Fundamentals
+
+1. What is an API?
+2. What is REST API?
+3. Difference between API and Web Service.
+4. Difference between REST, SOAP, and GraphQL APIs.
+5. What is an endpoint?
+6. What is a Base URL?
+7. What is JSON?
+8. Explain 3-tier architecture.
+9. What is microservices architecture?
+10. What is API versioning?
+11. What is Swagger/OpenAPI documentation?
+12. What is idempotency in APIs?
+13. What is pagination?
+14. What is caching in APIs?
+15. What is CORS?
+16. What is rate limiting?
+17. What is throttling?
+---
+
+---
+#9. Linux - Commands
+
+1. Basic Linux commands used in automation.
+2. How do you create files using Linux commands?
+3. Why is Linux knowledge important for automation engineers?
+---
+
+---
+#10. Excel - File - Data Handling
+
+1. How do you read and write Excel files using Java?
+2. Which APIs/libraries are used for Excel operations?
+3. How do you fetch data from properties files?
+4. How do you store and retrieve configuration data?
+5. How do you manage externalized test data?
+---
+
+---
+#11. Agile - Project - Scenario Questions
+
+1. Explain your automation framework architecture.
+2. Have you built a framework from scratch?
+3. What challenges did you face while building frameworks?
+4. Explain your current project roles and responsibilities.
+5. How many test cases have you automated in a sprint?
+6. How do you prioritize test cases under time constraints?
+7. How do you ensure test coverage?
+8. How do you manage test data and environment data?
+9. How do you rerun failed test cases automatically?
+10. How do you optimize automation execution time?
+11. How do you handle flaky tests?
+12. How do you manage parallel execution safely?
+13. Explain bug reporting and defect tracking process.
+14. How do you work with developers during defect triage?
+15. What challenges have you faced in real projects?
+16. How do you handle dynamic requirements?
+17. How do you perform browser compatibility testing?
+18. How do you test complex applications under tight deadlines?
+19. What are your daily activities as a QA engineer?
+20. How do you decide which scenarios to automate?
+21. How do you execute cross-browser testing at scale?
+22. How do you integrate automation with CI/CD?
+23. How do you handle API failures during UI automation?
+24. How do you maintain reusable automation code?
+---
+
+---
+#12. Jenkins - CI-CD - DevOps
+
+1. What is Jenkins and why is it used?
+2. Explain CI/CD pipeline integration in automation testing.
+3. How do you schedule Jenkins jobs?
+4. How do you create Jenkins pipelines using scripts?
+5. How do you integrate Selenium or Playwright with Jenkins?
+6. How do you trigger nightly builds?
+7. How do you send execution reports/emails after execution?
+8. Explain Maven lifecycle.
+9. Explain Surefire plugin.
+10. What are build tools like Maven and Ant?
+11. What is Azure DevSecOps and how is it used in automation?
+12. Explain Bamboo and other CI tools.
+---
+
+---
+#13. GIT - Version Control
+
+1. What is Git and why is it used?
+2. Explain Git workflow and stages of commit.
+3. Common Git commands used in projects.
+4. Difference between git clone, pull, patch, merge, rebase, and stash.
+5. How do you resolve merge conflicts?
+6. What is .gitignore and why is it important?
+7. How do you revert changes from remote repositories?
+8. How do you validate latest code updates after commit?
+9. Explain branching strategies in automation projects.
+10. Difference between SVN and Git.
+---
+
+---
+#14. SQL Basics
+
+1. Write queries to fetch employee details using WHERE conditions.
+2. Fetch employees based on department, salary range, hire date, and email pattern.
+3. Sort records using ORDER BY.
+4. Use GROUP BY to calculate count, total salary, and averages.
+5. Fetch top N highest-paid employees.
+6. Fetch second highest and third highest salaries.
+7. Fetch duplicate records from tables.
+8. Use self-join to fetch employee-manager relationships.
+9. Fetch employees with same salary or same department/title.
+10. Fetch employees with NULL values.
+11. Insert, update, and delete records.
+12. Fetch employees hired in specific periods.
+13. Find max/min salary.
+14. Explain GROUP BY, ORDER BY, and WHERE clauses.
+15. Explain database testing in automation.
+16. How do you validate backend data using SQL?
+17. Explain joins and self-joins.
+18. How do you retrieve data dynamically from databases in automation?
+---
+
+---
+#15. Cucumber BDD
+
+1. What is Cucumber and why is it used?
+2. Explain BDD framework architecture.
+3. What are feature files, step definitions, runner files, hooks, and glue code?
+4. Difference between Scenario and Scenario Outline.
+5. Difference between Scenario Outline and Data Tables.
+6. What is Background keyword?
+7. What happens if Background is not provided?
+8. What are Hooks in Cucumber?
+9. Explain Before and After hooks.
+10. What are Cucumber tags?
+11. How do you skip or rerun failed scenarios?
+12. Explain dryRun and strict options.
+13. How do you integrate Cucumber with TestNG?
+14. What keywords are available in Gherkin?
+15. What language does Gherkin use?
+16. How do you run Cucumber tests in parallel?
+17. How does Selenium pick Cucumber feature files?
+18. Explain Cucumber framework structure.
+19. Which is better for automation: Cucumber or TestNG?
+---
+
+---
+#16. TestNG
+
+1. What is TestNG and why is it used?
+2. Explain TestNG annotations and execution hierarchy.
+3. Difference between @BeforeSuite, @BeforeTest, and @BeforeClass.
+4. What tasks are usually written under each annotation?
+5. What is testng.xml and why is it used?
+6. Explain priorities in TestNG.
+7. What happens when multiple test cases have the same priority?
+8. Can priority values be negative?
+9. Explain dependsOnMethods and dependsOnGroups.
+10. How do you skip test cases conditionally?
+11. How do you rerun failed test cases?
+12. Explain invocationCount and threadPoolSize.
+13. What are TestNG listeners?
+14. Explain @Listeners annotation.
+15. Difference between hard assert and soft assert.
+16. What are DataProviders and why are they used?
+17. How do you execute tests in parallel?
+18. How do you group and exclude tests?
+19. How do you capture screenshots only for failed tests?
+20. How do you ensure dependent tests execute even if previous tests fail?
+21. How do you execute repeated test runs?
+---
+
+---
+#17. Playwright Execution & Framework
+
+16. What are headed and headless modes?
+17. How do you handle waits and async operations?
+18. How do you debug Playwright scripts?
+19. How do you execute tests in parallel?
+20. Explain Playwright reporting.
+21. Explain Playwright timeouts.
+22. How does Playwright support cross-browser testing?
+23. How do you integrate Playwright with CI/CD tools?
+24. Best practices for Playwright framework design.
+25. How do you handle flaky tests in Playwright?
+26. Can Playwright be used for web scraping?
+27. How do you run tests in Safari/WebKit?
+---
+
+---
+#18. Playwright Locators & Assertions
+
+11. Explain locators in Playwright.
+12. What selector types are available?
+13. Does Playwright support XPath?
+14. Explain assertions, hard assertions, and soft assertions.
+15. How do you validate page title, URL, and UI elements?
+---
+
+---
+#19. Playwright Basics
+
+1. What is Playwright?
+2. Advantages and disadvantages of Playwright.
+3. Difference between Playwright and Selenium.
+4. What programming languages are supported?
+5. Does Playwright require WebDriver?
+6. Explain Playwright architecture.
+7. How do you install and set up Playwright?
+8. Explain Playwright configuration files.
+9. What is @playwright/test package?
+10. What is Page class?
+---
+
+---
+#20. Selenium Framework Concepts
+
+59. What is Page Object Model (POM)?
+60. Advantages and disadvantages of POM.
+61. What is Page Factory?
+62. Explain @FindBy annotation.
+63. What is Object Repository?
+64. Explain Data-Driven, Keyword-Driven, and Hybrid Frameworks.
+65. How do you design a scalable automation framework?
+66. How do you manage test data in automation frameworks?
+67. What are recovery scenarios in Selenium?
+68. Which scenarios cannot be automated?
+69. What are DesiredCapabilities?
+70. How do you achieve cross-browser testing?
+71. How do you execute tests in parallel?
+72. How do you reduce automation execution time?
+73. How many test cases can realistically be automated in a sprint/day?
+---
+
+---
+#21. Selenium Grid
+
+74. What is Selenium Grid?
+75. Explain Hub and Node concepts.
+76. Advantages of Selenium Grid.
+77. How do you run tests in parallel across browsers using Grid?
+78. What is the default Selenium Grid port?
+---
+
+---
+#22. Selenium Mouse_Keyboard_Actions
+
+56. Explain Actions class in Selenium.
+57. How do you perform right-click, double-click, hover, and keyboard actions?
+58. What is Robot API and where is it used?
+---
+
+---
+#23. Selenium Browser_Window_Frame Handling
+
+44. Difference between get() and navigate().to().
+45. How do you navigate forward, backward, and refresh?
+46. Difference between close() and quit().
+47. How do you maximize or resize browser windows?
+48. How do you handle multiple windows and tabs?
+49. Difference between getWindowHandle() and getWindowHandles().
+50. How do you switch frames and nested frames?
+51. How do you switch back to parent frame/window?
+52. How do you handle browser notifications and permission popups?
+53. How do you handle alerts, JavaScript alerts, and authentication popups?
+54. How do you handle SSL certificate issues and HTTPS websites?
+55. How do you disable/delete cookies?
+---
+
+---
+#24. Selenium Waits & Synchronization
+
+37. Explain synchronization in automation testing.
+38. Difference between implicit wait, explicit wait, and fluent wait.
+39. Which wait supports timeout and polling frequency?
+40. When do TimeoutException and StaleElementReferenceException occur?
+41. How do you handle stale elements?
+42. When should Thread.sleep() be avoided?
+43. How do you slow down script execution safely?
+---
+
+---
+#25. Selenium Web Element Handling
+
+23. Difference between findElement() and findElements().
+24. How do you handle dropdowns using Select class and without Select class?
+25. How do you select values from dynamic dropdowns?
+26. How do you handle checkboxes, radio buttons, buttons, and links?
+27. How do you fetch text and attribute values from elements?
+28. How do you check whether an element is displayed, enabled, or selected?
+29. How do you handle hidden elements?
+30. How do you handle dynamic Ajax elements?
+31. How do you perform drag-and-drop operations?
+32. How do you handle file upload?
+33. How do you scroll using JavaScriptExecutor?
+34. How do you click elements not visible on the page?
+35. How do you capture screenshots in Selenium?
+36. How do you identify broken links and broken images?
+---
+
+---
+#26. Selenium Locators & XPath
+
+11. Explain all Selenium locators.
+12. Difference between XPath and CSS Selector.
+13. Difference between absolute XPath and relative XPath.
+14. Difference between single slash and double slash in XPath.
+15. Explain XPath functions used in projects.
+16. How do you handle dynamic elements using XPath?
+17. How do you locate nth child, parent-child, sibling, or dependency XPath elements?
+18. When would you use XPath over CSS selectors?
+19. How do you inspect web elements?
+20. Explain linkText and partialLinkText locators.
+21. Write XPath for checkboxes, radio buttons, dropdowns, menu items, and dynamic elements.
+22. How do you capture all elements from auto-suggestion dropdowns?
+---
+
+---
+#27. Selenium Basics
+
+1. What is Selenium?
+2. Explain Selenium architecture and Selenium components.
+3. Difference between Selenium RC, IDE, Grid, and WebDriver.
+4. Advantages and limitations of Selenium.
+5. Which browsers, operating systems, and languages are supported by Selenium?
+6. What types of testing can Selenium support?
+7. Can Selenium be integrated with API testing tools?
+8. What is WebDriver? Is it an interface or class?
+9. Explain the statement: WebDriver driver = new ChromeDriver().
+10. Why create reference variables using WebDriver interface?
+---
+
+---
+#28. Java Logic - Scenario Coding
+
+46. Implement a simple calculator.
+47. Implement a simple login system.
+48. Stock buy/sell maximum profit scenario.
+49. Count occurrences of specific words in a sentence.
+50. Fetch account number or values from paragraphs using regex/string logic.
+---
+
+---
+#29. Java Number Programs
+
+33. Swap two numbers.
+34. Factorial of a number.
+35. Fibonacci series.
+36. Prime number check.
+37. Armstrong number check.
+38. Perfect number check.
+39. Leap year validation.
+40. Sum of digits.
+41. Count digits in a number.
+42. GCD of two numbers.
+43. Convert decimal to binary.
+44. Sum of first N natural numbers.
+45. Generate random numbers.
+---
+
+---
+#30. Java Array Programs
+
+18. Find the largest and second largest number in an array.
+19. Find the smallest number in an array.
+20. Remove duplicate elements from an array or ArrayList.
+21. Rotate an array by K positions.
+22. Reverse an array.
+23. Check whether an array is sorted.
+24. Find missing number in a sequence.
+25. Find common elements in two arrays.
+26. Move all zeroes to the beginning/end of an array.
+27. Print even and odd indexed elements.
+28. Find pairs whose sum equals a target.
+29. Merge two sorted arrays.
+30. Print duplicate elements from an array.
+31. Print elements appearing more than once.
+32. Diagonal traversal in a 2D array.
+---
+
+---
+#31. Java Coding Questions
+
+1. Reverse a string without using built-in reverse methods.
+2. Check whether a string is palindrome.
+3. Find duplicate characters in a string.
+4. Remove duplicate characters from a string.
+5. Count occurrences/frequency of each character in a string.
+6. Find the first non-repeated character in a string.
+7. Reverse words in a sentence.
+8. Remove all white spaces from a string.
+9. Check whether two strings are anagrams.
+10. Extract digits from an alphanumeric string.
+11. Convert uppercase letters to lowercase and vice versa.
+12. Find maximum occurring character in a string.
+13. Reduce multiple spaces between words to a single space.
+14. Check whether one string contains another string.
+15. Find string length without using length().
+16. Convert String to Integer.
+17. Print characters multiple times based on numeric values in the string.
+---
+
+---
+#32. Java - Core Concepts
+
+1. Explain Object-Oriented Programming (OOPs) concepts with real-world examples.
+2. What is the difference between a class and an object?
+3. What is inheritance? Explain different types of inheritance in Java.
+4. Explain polymorphism with examples.
+5. Differentiate method overloading and method overriding.
+6. What is encapsulation? How is it implemented?
+7. What is abstraction? How do abstract classes and interfaces help achieve it?
+8. Difference between abstract class and interface.
+9. Can Java support multiple inheritance? How?
+10. What is the purpose of constructors in Java?
+11. Difference between default and parameterized constructors.
+12. Are constructors inherited?
+13. Explain access modifiers: public, private, protected, and default.
+14. What is the purpose of the super keyword?
+15. Explain static keyword, static methods, and static variables.
+16. Explain final, finally, and finalize.
+17. What is method hiding?
+18. What is the purpose of volatile and transient keywords?
+19. Explain serialization and deserialization.
+20. Explain JVM, JRE, and JDK.
+21. What is String immutability and String Constant Pool?
+22. Difference between String, StringBuilder, and StringBuffer.
+23. Difference between ArrayList, LinkedHashSet, HashMap, Hashtable, and Collections.
+24. What is Comparable vs Comparator?
+25. Explain checked and unchecked exceptions.
+26. How do you handle NullPointerException and other exceptions in automation frameworks?
+27. What is thread safety in parallel execution?
+28. What is POJO class and where is it used?
+29. What is Singleton Design Pattern?
+30. Which design patterns have you implemented in your automation framework?
+---
+
+#33. Manual Testing - QA Theory
+
+1. What is software testing and why is it important?
+2. Explain STLC and SDLC phases.
+3. Difference between verification and validation.
+4. Difference between bug, defect, error, and failure.
+5. Explain defect/bug life cycle.
+6. Difference between severity and priority with examples.
+7. Difference between Smoke, Sanity, Regression, Retesting, and Ad-hoc testing.
+8. Difference between functional and non-functional testing.
+9. Difference between white-box, black-box, and grey-box testing.
+10. Explain compatibility, exploratory, load, stress, volume, and performance testing.
+11. What is regression testing and how do you select regression test cases?
+12. Explain alpha and beta testing.
+13. What is Unit Testing and who performs it?
+14. What is UI testing?
+15. What are negative test cases?
+16. Explain Boundary Value Analysis and Equivalence Partitioning.
+17. What is Traceability Matrix (RTM)?
+18. What is Test Plan and what are its components?
+19. Difference between Test Strategy and Test Plan.
+20. What are Entry and Exit Criteria?
+21. What are test deliverables?
+22. What is test scenario vs test case vs test script?
+23. What are the key fields in a defect report and test case document?
+24. How do you decide when testing is enough?
+25. What are Agile ceremonies?
+26. Explain Scrum vs Kanban.
+27. What is Definition of Done (DoD)?
+28. What is EPIC in Agile?
+29. Explain 3 Amigos concept.
+30. What are roles and responsibilities of QA engineers?
+31. How do you handle ambiguous requirements?
+32. How do you handle critical bugs before release?
+33. How do you convince developers regarding valid defects?
+34. What are good tester qualities?
+35. Which test cases should not be automated?
+36. Explain web application vs client-server application testing.
+37. Difference between product-based and project-based testing.
+38. Explain maintenance phase activities.
+39. What is CMM level?
+40. Explain documentation involved in testing.
+---

@@ -1,0 +1,343 @@
+
+# 1. API Practical Coding & Automation
+
+## API Scenario-Based Practice
+
+* How would you test an API if no documentation is available?
+* What validations would you perform after creating a resource using POST API?
+* How do you validate database changes after API execution?
+* How do you handle expired tokens in automation?
+* How would you automate APIs with dynamic request and response data?
+* How do you validate nested JSON responses?
+* How would you test APIs in a microservices architecture?
+* How do you handle flaky API tests?
+* How do you perform regression testing for APIs?
+* How do you validate APIs in CI/CD pipelines?
+* How would you test APIs under heavy load?
+* How do you troubleshoot intermittent API failures?
+* How do you validate API backward compatibility after version changes?
+
+---
+
+## Rest Assured Practical Exercises
+
+* Create POST requests using JSON payloads.
+* Validate JSON schema programmatically.
+* Automate API testing using Rest Assured.
+* Pass headers in API automation.
+* Handle authentication tokens in automation.
+* Validate JSON responses in automation.
+* Manage dynamic data in API automation frameworks.
+* Perform request chaining in Rest Assured.
+* Implement data-driven API automation.
+* Structure an API automation framework.
+
+---
+
+## Postman Hands-on
+
+* Import and export collections.
+* Write Pre-request Scripts and Test Scripts.
+* Automate API testing using Postman.
+* Pass headers, query parameters, and payloads in Postman.
+* Validate response status codes in Postman.
+* Save mock responses.
+* Generate API documentation using Postman.
+* Integrate Postman collections into CI/CD pipelines.
+
+---
+
+## API Testing Practical Concepts
+
+* Test negative scenarios in APIs.
+* Validate API response body and schema.
+* Validate JSON responses programmatically.
+* Validate form-data responses.
+* Test response time and performance.
+* Debug API failures like 500 Internal Server Error.
+* Test standalone APIs and third-party integrated APIs.
+* Test GraphQL APIs.
+* Test SOAP APIs.
+* Perform data-driven API testing.
+* Handle dynamic values in API testing.
+* Chain API requests.
+* Upload files using APIs or Postman.
+* Test APIs that require VPN access.
+
+---
+
+## Authentication & Security Practice
+
+* Handle OAuth and Basic Authentication in automation.
+* Securely store credentials in Postman or automation frameworks.
+* Handle SSL certificates in API automation.
+
+---
+
+# 2. SQL Coding Practice
+
+## SQL Query Exercises
+
+* Fetch employee details using WHERE conditions.
+* Fetch employees based on department, salary range, hire date, and email pattern.
+* Sort records using ORDER BY.
+* Use GROUP BY to calculate count, total salary, and averages.
+
+## Intermediate SQL
+
+* Fetch top N highest-paid employees.
+* Fetch second highest and third highest salaries.
+* Fetch duplicate records from tables.
+* Use self-join to fetch employee-manager relationships.
+* Fetch employees with same salary or same department/title.
+* Fetch employees with NULL values.
+
+## Database Operations
+
+* Insert records.
+* Update records.
+* Delete records.
+* Fetch employees hired in specific periods.
+* Find max/min salary.
+
+## SQL + Automation Practice
+
+* Validate backend data using SQL.
+* Retrieve data dynamically from databases in automation.
+
+---
+
+# 3. Java Coding Practice
+
+## String Programs
+
+* Reverse a string without using built-in reverse methods.
+* Check whether a string is palindrome.
+* Find duplicate characters in a string.
+* Remove duplicate characters from a string.
+* Count frequency of each character in a string.
+* Find the first non-repeated character in a string.
+* Reverse words in a sentence.
+* Remove all white spaces from a string.
+* Check whether two strings are anagrams.
+* Extract digits from an alphanumeric string.
+* Convert uppercase letters to lowercase and vice versa.
+* Find maximum occurring character in a string.
+* Reduce multiple spaces between words to a single space.
+* Check whether one string contains another string.
+* Find string length without using length().
+* Convert String to Integer.
+* Print characters multiple times based on numeric values in the string.
+
+---
+
+## Array Programs
+
+* Find the largest and second largest number in an array.
+* Find the smallest number in an array.
+* Remove duplicate elements from an array or ArrayList.
+* Rotate an array by K positions.
+* Reverse an array.
+* Check whether an array is sorted.
+* Find missing number in a sequence.
+* Find common elements in two arrays.
+* Move all zeroes to the beginning/end of an array.
+* Print even and odd indexed elements.
+* Find pairs whose sum equals a target.
+* Merge two sorted arrays.
+* Print duplicate elements from an array.
+* Print elements appearing more than once.
+* Diagonal traversal in a 2D array.
+
+---
+
+## Number Programs
+
+* Swap two numbers.
+* Factorial of a number.
+* Fibonacci series.
+* Prime number check.
+* Armstrong number check.
+* Perfect number check.
+* Leap year validation.
+* Sum of digits.
+* Count digits in a number.
+* GCD of two numbers.
+* Convert decimal to binary.
+* Sum of first N natural numbers.
+* Generate random numbers.
+
+---
+
+## Scenario-Based Java Coding
+
+* Implement a simple calculator.
+* Implement a simple login system.
+* Stock buy/sell maximum profit scenario.
+* Count occurrences of specific words in a sentence.
+* Fetch account number or values from paragraphs using regex/string logic.
+
+---
+
+# 4. Selenium Practical Exercises
+
+## Selenium Locators & XPath
+
+* Write XPath for checkboxes, radio buttons, dropdowns, menu items, and dynamic elements.
+* Handle dynamic elements using XPath.
+* Locate nth child, parent-child, sibling, or dependency XPath elements.
+* Capture all elements from auto-suggestion dropdowns.
+
+---
+
+## Selenium Web Element Handling
+
+* Handle dropdowns using Select class and without Select class.
+* Select values from dynamic dropdowns.
+* Handle checkboxes, radio buttons, buttons, and links.
+* Fetch text and attribute values from elements.
+* Check whether an element is displayed, enabled, or selected.
+* Handle hidden elements.
+* Handle dynamic Ajax elements.
+* Perform drag-and-drop operations.
+* Handle file upload.
+* Scroll using JavaScriptExecutor.
+* Click elements not visible on the page.
+* Capture screenshots in Selenium.
+* Identify broken links and broken images.
+
+---
+
+## Selenium Waits & Synchronization
+
+* Handle stale elements.
+* Implement implicit wait, explicit wait, and fluent wait.
+* Slow down script execution safely.
+
+---
+
+## Browser / Window / Frame Handling
+
+* Navigate forward, backward, and refresh.
+* Handle multiple windows and tabs.
+* Switch frames and nested frames.
+* Switch back to parent frame/window.
+* Handle browser notifications and permission popups.
+* Handle alerts and authentication popups.
+* Handle SSL certificate issues and HTTPS websites.
+* Disable/delete cookies.
+
+---
+
+## Mouse & Keyboard Actions
+
+* Perform right-click, double-click, hover, and keyboard actions.
+* Use Robot API.
+
+---
+
+## Selenium Framework Implementation
+
+* Design scalable automation framework.
+* Manage test data in automation frameworks.
+* Achieve cross-browser testing.
+* Execute tests in parallel.
+* Reduce automation execution time.
+
+---
+
+## Selenium Grid Practice
+
+* Run tests in parallel across browsers using Grid.
+
+---
+
+# 5. Playwright Practical Exercises
+
+## Playwright Setup & Execution
+
+* Install and set up Playwright.
+* Configure Playwright framework.
+* Handle waits and async operations.
+* Debug Playwright scripts.
+* Execute tests in parallel.
+* Configure Playwright reporting.
+* Handle Playwright timeouts.
+* Support cross-browser testing.
+* Integrate Playwright with CI/CD tools.
+* Design Playwright framework.
+* Handle flaky tests in Playwright.
+* Run tests in Safari/WebKit.
+
+---
+
+## Playwright Locators & Assertions
+
+* Use Playwright locators.
+* Write selectors.
+* Use XPath in Playwright.
+* Validate page title, URL, and UI elements.
+
+---
+
+# 6. TestNG Practical Exercises
+
+* Configure testng.xml.
+* Skip test cases conditionally.
+* Rerun failed test cases.
+* Use invocationCount and threadPoolSize.
+* Create TestNG listeners.
+* Implement DataProviders.
+* Execute tests in parallel.
+* Group and exclude tests.
+* Capture screenshots only for failed tests.
+* Execute repeated test runs.
+
+---
+
+# 7. Cucumber BDD Practical Exercises
+
+* Create feature files.
+* Create step definitions.
+* Configure runner files.
+* Implement hooks.
+* Skip or rerun failed scenarios.
+* Integrate Cucumber with TestNG.
+* Run Cucumber tests in parallel.
+* Build Cucumber framework structure.
+
+---
+
+# 8. Jenkins / CI-CD / DevOps Practical
+
+* Schedule Jenkins jobs.
+* Create Jenkins pipelines using scripts.
+* Integrate Selenium or Playwright with Jenkins.
+* Trigger nightly builds.
+* Send execution reports/emails after execution.
+
+---
+
+# 9. Git Hands-on Practice
+
+* Use common Git commands.
+* Resolve merge conflicts.
+* Revert changes from remote repositories.
+* Validate latest code updates after commit.
+* Practice branching strategies.
+
+---
+
+# 10. Excel / File Handling Coding
+
+* Read and write Excel files using Java.
+* Fetch data from properties files.
+* Store and retrieve configuration data.
+* Manage externalized test data.
+
+---
+
+# 11. Linux Command Practice
+
+* Practice Linux commands used in automation.
+* Create files using Linux commands.
