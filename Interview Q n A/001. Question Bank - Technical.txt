@@ -1,23 +1,12 @@
-
-# 1. API Practical Coding & Automation
+# API Testing
 
 ## API Scenario-Based Practice
 
-* How would you test an API if no documentation is available?
-* What validations would you perform after creating a resource using POST API?
 * How do you validate database changes after API execution?
-* How do you handle expired tokens in automation?
 * How would you automate APIs with dynamic request and response data?
 * How do you validate nested JSON responses?
-* How would you test APIs in a microservices architecture?
-* How do you handle flaky API tests?
-* How do you perform regression testing for APIs?
-* How do you validate APIs in CI/CD pipelines?
 * How would you test APIs under heavy load?
-* How do you troubleshoot intermittent API failures?
 * How do you validate API backward compatibility after version changes?
-
----
 
 ## Rest Assured Practical Exercises
 
@@ -32,11 +21,8 @@
 * How do you Implement data-driven API automation?
 * How would you design and structure an API automation framework from scratch?
 
----
-
 ## Postman Hands-on
 
-* How to Import and export collections?
 * Write Pre-request Scripts and Test Scripts?
 * How to Automate API testing using Postman?
 * How would you Pass headers, query parameters, and payloads in Postman?
@@ -45,36 +31,19 @@
 * How to Generate API documentation using Postman?
 * How to Integrate Postman collections into CI/CD pipelines?
 
----
-
 ## API Testing Practical Concepts
 
-* How would you Test negative scenarios in APIs?
 * How would you Validate API response body and schema?
 * How would you Validate JSON responses programmatically?
 * How would you Validate form-data responses?
-* How would you Test response time and performance?
-* How would you Debug API failures like 500 Internal Server Error?
-* How would you Test standalone APIs and third-party integrated APIs?
-* How would you Test GraphQL APIs?
-* How would you Test SOAP APIs?
 * How would you Perform data-driven API testing?
 * How would you Handle dynamic values in API testing?
 * How to Chain API requests?
 * How would you Upload files using APIs or Postman?
-* How would you Test APIs that require VPN access?
 
 ---
 
-## Authentication & Security Practice
-
-* How would you Handle OAuth and Basic Authentication in automation?
-* How would you Securely store credentials in Postman or automation frameworks?
-* How would you Handle SSL certificates in API automation?
-
----
-
-# 2. SQL Coding Practice
+# SQL Coding Practice
 
 ## SQL Query Exercises
 
@@ -107,7 +76,7 @@
 
 ---
 
-# 3. Java Coding Practice
+# Java Coding Practice
 
 ## String Programs
 
@@ -129,8 +98,6 @@
 * Convert String to Integer.
 * Print characters multiple times based on numeric values in the string.
 
----
-
 ## Array Programs
 
 * Find the largest and second largest number in an array.
@@ -149,8 +116,6 @@
 * Print elements appearing more than once.
 * Diagonal traversal in a 2D array.
 
----
-
 ## Number Programs
 
 * Swap two numbers.
@@ -167,8 +132,6 @@
 * Sum of first N natural numbers.
 * Generate random numbers.
 
----
-
 ## Scenario-Based Java Coding
 
 * Implement a simple calculator.
@@ -179,7 +142,7 @@
 
 ---
 
-# 4. Selenium Practical Exercises
+# Selenium Practical Exercises
 
 ## Selenium Locators & XPath
 
@@ -187,8 +150,6 @@
 * How would you Handle dynamic elements using XPath?
 * How would you Locate nth child, parent-child, sibling, or dependency XPath elements?
 * How would you Capture all elements from auto-suggestion dropdowns?
-
----
 
 ## Selenium Web Element Handling
 
@@ -206,35 +167,24 @@
 * How would you Capture screenshots in Selenium?
 * How would you Identify broken links and broken images?
 
----
-
 ## Selenium Waits & Synchronization
 
 * How would you Handle stale elements?
 * How would you Implement implicit wait, explicit wait, and fluent wait?
-* How would you Slow down script execution safely?
-
----
 
 ## Browser / Window / Frame Handling
 
-* How would you Navigate forward, backward, and refresh?
 * How would you Handle multiple windows and tabs?
 * Write a program for Switch frames and nested frames?
 * How would you Switch back to parent frame/window?
 * How would you Handle browser notifications and permission popups?
 * How would you Handle alerts and authentication popups?
-* How would you Handle SSL certificate issues and HTTPS websites?
 * How to Disable/delete cookies?
-
----
 
 ## Mouse & Keyboard Actions
 
 * How would you Perform right-click, double-click, hover, and keyboard actions?
 * How would you Use Robot API?
-
----
 
 ## Selenium Framework Implementation
 
@@ -244,15 +194,13 @@
 * How would you Execute tests in parallel?
 * How would you Reduce automation execution time?
 
----
-
 ## Selenium Grid Practice
 
 * How would you Run tests in parallel across browsers using Grid?
 
 ---
 
-# 5. Playwright Practical Exercises
+# Playwright Practical Exercises
 
 ## Playwright Setup & Execution
 
@@ -269,8 +217,6 @@
 * How would you Handle flaky tests in Playwright?
 * How would you Run tests in Safari/WebKit?
 
----
-
 ## Playwright Locators & Assertions
 
 * How to Use Playwright locators?
@@ -280,10 +226,9 @@
 
 ---
 
-# 6. TestNG Practical Exercises
+# TestNG Practical Exercises
 
 * How would you Configure testng.xml?
-* How would you Skip test cases conditionally?
 * How would you Rerun failed test cases?
 * How would you Use invocationCount and threadPoolSize and when?
 * How would you Create TestNG listeners?
@@ -295,7 +240,7 @@
 
 ---
 
-# 7. Cucumber BDD Practical Exercises
+# Cucumber BDD Practical Exercises
 
 * How would you Create feature files?
 * How would you Create step definitions?
@@ -308,7 +253,7 @@
 
 ---
 
-# 8. Jenkins / CI-CD / DevOps Practical
+# Jenkins / CI-CD / DevOps Practical
 
 * How would you Schedule Jenkins jobs?
 * How would you Create Jenkins pipelines using scripts?
@@ -318,7 +263,7 @@
 
 ---
 
-# 9. Git Hands-on Practice
+# Git Hands-on Practice
 
 * How would you Use common Git commands?
 * How would you Resolve merge conflicts?
@@ -328,7 +273,7 @@
 
 ---
 
-# 10. Excel / File Handling Coding
+# Excel / File Handling Coding
 
 * How would you Read and write Excel files using Java?
 * How would you Fetch data from properties files?
@@ -337,7 +282,7 @@
 
 ---
 
-# 11. Linux Command Practice
+# Linux Command Practice
 
 * How would you Practice Linux commands used in automation?
-* How would you Create files using Linux commands?
+* How would you Create files using Linux commands? 
