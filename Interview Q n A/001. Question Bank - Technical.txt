@@ -21,56 +21,56 @@
 
 ## Rest Assured Practical Exercises
 
-* Create POST requests using JSON payloads.
-* Validate JSON schema programmatically.
-* Automate API testing using Rest Assured.
-* Pass headers in API automation.
-* Handle authentication tokens in automation.
-* Validate JSON responses in automation.
-* Manage dynamic data in API automation frameworks.
-* Perform request chaining in Rest Assured.
-* Implement data-driven API automation.
-* Structure an API automation framework.
+* How do you create POST requests using JSON payloads?
+* How do you Validate JSON schema programmatically?
+* How do you Automate API testing using Rest Assured?
+* How do you Pass headers in API automation?
+* How do you Handle authentication tokens in automation?
+* How do you Validate JSON responses in automation?
+* How do you Manage dynamic data in API automation frameworks?
+* How do you Perform request chaining in Rest Assured?
+* How do you Implement data-driven API automation?
+* How would you design and structure an API automation framework from scratch?
 
 ---
 
 ## Postman Hands-on
 
-* Import and export collections.
-* Write Pre-request Scripts and Test Scripts.
-* Automate API testing using Postman.
-* Pass headers, query parameters, and payloads in Postman.
-* Validate response status codes in Postman.
-* Save mock responses.
-* Generate API documentation using Postman.
-* Integrate Postman collections into CI/CD pipelines.
+* How to Import and export collections?
+* Write Pre-request Scripts and Test Scripts?
+* How to Automate API testing using Postman?
+* How would you Pass headers, query parameters, and payloads in Postman?
+* How to Validate response status codes in Postman?
+* How to Save mock responses?
+* How to Generate API documentation using Postman?
+* How to Integrate Postman collections into CI/CD pipelines?
 
 ---
 
 ## API Testing Practical Concepts
 
-* Test negative scenarios in APIs.
-* Validate API response body and schema.
-* Validate JSON responses programmatically.
-* Validate form-data responses.
-* Test response time and performance.
-* Debug API failures like 500 Internal Server Error.
-* Test standalone APIs and third-party integrated APIs.
-* Test GraphQL APIs.
-* Test SOAP APIs.
-* Perform data-driven API testing.
-* Handle dynamic values in API testing.
-* Chain API requests.
-* Upload files using APIs or Postman.
-* Test APIs that require VPN access.
+* How would you Test negative scenarios in APIs?
+* How would you Validate API response body and schema?
+* How would you Validate JSON responses programmatically?
+* How would you Validate form-data responses?
+* How would you Test response time and performance?
+* How would you Debug API failures like 500 Internal Server Error?
+* How would you Test standalone APIs and third-party integrated APIs?
+* How would you Test GraphQL APIs?
+* How would you Test SOAP APIs?
+* How would you Perform data-driven API testing?
+* How would you Handle dynamic values in API testing?
+* How to Chain API requests?
+* How would you Upload files using APIs or Postman?
+* How would you Test APIs that require VPN access?
 
 ---
 
 ## Authentication & Security Practice
 
-* Handle OAuth and Basic Authentication in automation.
-* Securely store credentials in Postman or automation frameworks.
-* Handle SSL certificates in API automation.
+* How would you Handle OAuth and Basic Authentication in automation?
+* How would you Securely store credentials in Postman or automation frameworks?
+* How would you Handle SSL certificates in API automation?
 
 ---
 
@@ -78,32 +78,32 @@
 
 ## SQL Query Exercises
 
-* Fetch employee details using WHERE conditions.
-* Fetch employees based on department, salary range, hire date, and email pattern.
-* Sort records using ORDER BY.
-* Use GROUP BY to calculate count, total salary, and averages.
+* How would you Fetch employee details using WHERE conditions?
+* How would you Fetch employees based on department, salary range, hire date, and email pattern?
+* How would you Sort records using ORDER BY?
+* How would you Use GROUP BY to calculate count, total salary, and averages?
 
 ## Intermediate SQL
 
-* Fetch top N highest-paid employees.
-* Fetch second highest and third highest salaries.
-* Fetch duplicate records from tables.
-* Use self-join to fetch employee-manager relationships.
-* Fetch employees with same salary or same department/title.
-* Fetch employees with NULL values.
+* How would you Fetch top N highest-paid employees?
+* How would you Fetch second highest and third highest salaries?
+* How would you Fetch duplicate records from tables?
+* How would you Use self-join to fetch employee-manager relationships?
+* How would you Fetch employees with same salary or same department/title?
+* How would you Fetch employees with NULL values?
 
 ## Database Operations
 
-* Insert records.
-* Update records.
-* Delete records.
-* Fetch employees hired in specific periods.
-* Find max/min salary.
+* How would you Insert records?
+* How would you Update records?
+* How would you Delete records?
+* How would you Fetch employees hired in specific periods?
+* How would you Find max/min salary?
 
 ## SQL + Automation Practice
 
-* Validate backend data using SQL.
-* Retrieve data dynamically from databases in automation.
+* How would you Validate backend data using SQL?
+* How would you Retrieve data dynamically from databases in automation?
 
 ---
 
@@ -183,72 +183,72 @@
 
 ## Selenium Locators & XPath
 
-* Write XPath for checkboxes, radio buttons, dropdowns, menu items, and dynamic elements.
-* Handle dynamic elements using XPath.
-* Locate nth child, parent-child, sibling, or dependency XPath elements.
-* Capture all elements from auto-suggestion dropdowns.
+* Write XPath for checkboxes, radio buttons, dropdowns, menu items, and dynamic elements?
+* How would you Handle dynamic elements using XPath?
+* How would you Locate nth child, parent-child, sibling, or dependency XPath elements?
+* How would you Capture all elements from auto-suggestion dropdowns?
 
 ---
 
 ## Selenium Web Element Handling
 
-* Handle dropdowns using Select class and without Select class.
-* Select values from dynamic dropdowns.
-* Handle checkboxes, radio buttons, buttons, and links.
-* Fetch text and attribute values from elements.
-* Check whether an element is displayed, enabled, or selected.
-* Handle hidden elements.
-* Handle dynamic Ajax elements.
-* Perform drag-and-drop operations.
-* Handle file upload.
-* Scroll using JavaScriptExecutor.
-* Click elements not visible on the page.
-* Capture screenshots in Selenium.
-* Identify broken links and broken images.
+* How would you Handle dropdowns using Select class and without Select class?
+* How would you Select values from dynamic dropdowns?
+* How would you Handle checkboxes, radio buttons, buttons, and links?
+* How would you Fetch text and attribute values from elements?
+* How would you Check whether an element is displayed, enabled, or selected?
+* How would you Handle hidden elements?
+* How would you Handle dynamic Ajax elements?
+* How would you Perform drag-and-drop operations?
+* How would you Handle file upload?
+* How would you Scroll using JavaScriptExecutor?
+* How would you Click elements not visible on the page?
+* How would you Capture screenshots in Selenium?
+* How would you Identify broken links and broken images?
 
 ---
 
 ## Selenium Waits & Synchronization
 
-* Handle stale elements.
-* Implement implicit wait, explicit wait, and fluent wait.
-* Slow down script execution safely.
+* How would you Handle stale elements?
+* How would you Implement implicit wait, explicit wait, and fluent wait?
+* How would you Slow down script execution safely?
 
 ---
 
 ## Browser / Window / Frame Handling
 
-* Navigate forward, backward, and refresh.
-* Handle multiple windows and tabs.
-* Switch frames and nested frames.
-* Switch back to parent frame/window.
-* Handle browser notifications and permission popups.
-* Handle alerts and authentication popups.
-* Handle SSL certificate issues and HTTPS websites.
-* Disable/delete cookies.
+* How would you Navigate forward, backward, and refresh?
+* How would you Handle multiple windows and tabs?
+* Write a program for Switch frames and nested frames?
+* How would you Switch back to parent frame/window?
+* How would you Handle browser notifications and permission popups?
+* How would you Handle alerts and authentication popups?
+* How would you Handle SSL certificate issues and HTTPS websites?
+* How to Disable/delete cookies?
 
 ---
 
 ## Mouse & Keyboard Actions
 
-* Perform right-click, double-click, hover, and keyboard actions.
-* Use Robot API.
+* How would you Perform right-click, double-click, hover, and keyboard actions?
+* How would you Use Robot API?
 
 ---
 
 ## Selenium Framework Implementation
 
-* Design scalable automation framework.
-* Manage test data in automation frameworks.
-* Achieve cross-browser testing.
-* Execute tests in parallel.
-* Reduce automation execution time.
+* How would you Design scalable automation framework?
+* How would you Manage test data in automation frameworks?
+* How would you Achieve cross-browser testing?
+* How would you Execute tests in parallel?
+* How would you Reduce automation execution time?
 
 ---
 
 ## Selenium Grid Practice
 
-* Run tests in parallel across browsers using Grid.
+* How would you Run tests in parallel across browsers using Grid?
 
 ---
 
@@ -256,88 +256,88 @@
 
 ## Playwright Setup & Execution
 
-* Install and set up Playwright.
-* Configure Playwright framework.
-* Handle waits and async operations.
-* Debug Playwright scripts.
-* Execute tests in parallel.
-* Configure Playwright reporting.
-* Handle Playwright timeouts.
-* Support cross-browser testing.
-* Integrate Playwright with CI/CD tools.
-* Design Playwright framework.
-* Handle flaky tests in Playwright.
-* Run tests in Safari/WebKit.
+* How would you Install and set up Playwright?
+* How would you Configure Playwright framework?
+* How would you Handle waits and async operations?
+* How would you Debug Playwright scripts?
+* How would you Execute tests in parallel?
+* How would you Configure Playwright reporting?
+* How would you Handle Playwright timeouts?
+* How would you Support cross-browser testing?
+* How would you Integrate Playwright with CI/CD tools?
+* How would you Design Playwright framework?
+* How would you Handle flaky tests in Playwright?
+* How would you Run tests in Safari/WebKit?
 
 ---
 
 ## Playwright Locators & Assertions
 
-* Use Playwright locators.
-* Write selectors.
-* Use XPath in Playwright.
-* Validate page title, URL, and UI elements.
+* How to Use Playwright locators?
+* How to Write selectors?
+* How to Use XPath in Playwright?
+* How to Validate page title, URL, and UI elements?
 
 ---
 
 # 6. TestNG Practical Exercises
 
-* Configure testng.xml.
-* Skip test cases conditionally.
-* Rerun failed test cases.
-* Use invocationCount and threadPoolSize.
-* Create TestNG listeners.
-* Implement DataProviders.
-* Execute tests in parallel.
-* Group and exclude tests.
-* Capture screenshots only for failed tests.
-* Execute repeated test runs.
+* How would you Configure testng.xml?
+* How would you Skip test cases conditionally?
+* How would you Rerun failed test cases?
+* How would you Use invocationCount and threadPoolSize and when?
+* How would you Create TestNG listeners?
+* How would you Implement DataProviders?
+* How would you Execute tests in parallel?
+* How would you Group and exclude tests?
+* How would you Capture screenshots only for failed tests?
+* How would you Execute repeated test runs?
 
 ---
 
 # 7. Cucumber BDD Practical Exercises
 
-* Create feature files.
-* Create step definitions.
-* Configure runner files.
-* Implement hooks.
-* Skip or rerun failed scenarios.
-* Integrate Cucumber with TestNG.
-* Run Cucumber tests in parallel.
-* Build Cucumber framework structure.
+* How would you Create feature files?
+* How would you Create step definitions?
+* How would you Configure runner files?
+* How would you Implement hooks?
+* How would you Skip or rerun failed scenarios?
+* How would you Integrate Cucumber with TestNG?
+* How would you Run Cucumber tests in parallel?
+* How would you Build Cucumber framework structure?
 
 ---
 
 # 8. Jenkins / CI-CD / DevOps Practical
 
-* Schedule Jenkins jobs.
-* Create Jenkins pipelines using scripts.
-* Integrate Selenium or Playwright with Jenkins.
-* Trigger nightly builds.
-* Send execution reports/emails after execution.
+* How would you Schedule Jenkins jobs?
+* How would you Create Jenkins pipelines using scripts?
+* How would you Integrate Selenium or Playwright with Jenkins?
+* How would you Trigger nightly builds?
+* How would you Send execution reports/emails after execution?
 
 ---
 
 # 9. Git Hands-on Practice
 
-* Use common Git commands.
-* Resolve merge conflicts.
-* Revert changes from remote repositories.
-* Validate latest code updates after commit.
-* Practice branching strategies.
+* How would you Use common Git commands?
+* How would you Resolve merge conflicts?
+* How would you Revert changes from remote repositories?
+* How would you Validate latest code updates after commit?
+* How would you Practice branching strategies?
 
 ---
 
 # 10. Excel / File Handling Coding
 
-* Read and write Excel files using Java.
-* Fetch data from properties files.
-* Store and retrieve configuration data.
-* Manage externalized test data.
+* How would you Read and write Excel files using Java?
+* How would you Fetch data from properties files?
+* How would you Store and retrieve configuration data?
+* How would you Manage externalized test data?
 
 ---
 
 # 11. Linux Command Practice
 
-* Practice Linux commands used in automation.
-* Create files using Linux commands.
+* How would you Practice Linux commands used in automation?
+* How would you Create files using Linux commands?
