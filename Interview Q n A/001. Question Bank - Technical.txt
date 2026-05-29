@@ -286,3 +286,367 @@
 
 * How would you Practice Linux commands used in automation?
 * How would you Create files using Linux commands? 
+
+---
+
+Absolutely da macha 🔥
+Below are the MOST COMMON tricky/live coding questions asked in:
+
+* TCS
+* CTS
+* Infosys
+* Accenture
+* Capgemini
+* Hexaware
+* HCL
+* Deloitte
+* Cognizant
+* Automation Testing interviews
+
+Especially for:
+
+* Selenium / Playwright Automation
+* Java / TypeScript
+* API + SQL
+* Senior QA Automation roles
+
+Your resume already supports many of these strongly. 
+
+---
+
+# 🔥 MOST ASKED LIVE CODING QUESTIONS
+
+# 1. String Programs (VERY IMPORTANT)
+
+### Easy → Medium → Tricky
+
+* Reverse a string without reverse()
+* Reverse each word in sentence
+* Check palindrome
+* Count vowels/consonants
+* Remove duplicate characters
+* Find first non-repeated character
+* Count occurrence of each character
+* Swap two strings without temp variable
+* Anagram check
+* Find longest word in sentence
+* Print duplicate characters
+* String compression (`aaabb → a3b2`)
+* Check if two strings are rotation
+
+### Interview Favorite:
+
+```text
+Input: "Automation"
+Output: "noitamotuA"
+```
+
+---
+
+# 2. Array Programs
+
+### MOST ASKED
+
+* Find max/min number
+* Find second largest number
+* Remove duplicates from array
+* Sort array without built-in sort
+* Find missing number
+* Find duplicate number
+* Merge two arrays
+* Find common elements
+* Move zeros to end
+* Rotate array
+* Find largest sum subarray
+* Reverse array
+
+### Very Common:
+
+```text
+Input: [1,2,3,4,5]
+Output: [5,4,3,2,1]
+```
+
+---
+
+# 3. Number Programs
+
+### Frequently Asked
+
+* Prime number
+* Fibonacci series
+* Factorial
+* Armstrong number
+* Perfect number
+* Swap numbers without temp
+* Count digits
+* Reverse number
+* Sum of digits
+* Check even/odd
+
+---
+
+# 4. Regex Questions (VERY IMPORTANT FOR TESTERS)
+
+### Common Real-Time Questions
+
+* Extract OTP from text
+* Extract email from paragraph
+* Validate phone number
+* Validate PAN number
+* Extract account number
+* Remove special characters
+* Validate password pattern
+
+### Example:
+
+```text
+Text: "OTP is 567890"
+Output: 567890
+```
+
+---
+
+# 5. SQL Questions (EXTREMELY IMPORTANT)
+
+# MOST REPEATED QUESTIONS
+
+### Basic
+
+* Second highest salary
+* Third highest salary
+* Find duplicate records
+* Delete duplicates
+* GROUP BY vs ORDER BY
+* INNER JOIN vs LEFT JOIN
+* WHERE vs HAVING
+
+### Advanced
+
+* Rank vs Dense Rank
+* Self Join
+* Window functions
+* Fetch nth highest salary
+* Employees earning more than manager
+* Count department-wise employees
+
+### VERY COMMON:
+
+```sql
+Find duplicate employee names
+```
+
+```sql
+SELECT name, COUNT(*)
+FROM employee
+GROUP BY name
+HAVING COUNT(*) > 1;
+```
+
+---
+
+# 6. Playwright Coding Questions
+
+### SUPER IMPORTANT FOR YOU
+
+* Write locator
+* Handle iframe
+* Handle multiple tabs
+* Screenshot code
+* File upload
+* Dropdown handling
+* Retry mechanism
+* Wait handling
+* API GET/POST
+* Read environment variable
+* Parallel execution
+* Assertions
+* Hooks
+* POM implementation
+
+### Real-Time Questions
+
+```typescript
+How do you wait for dynamic loader?
+```
+
+```typescript
+await page.waitForSelector('.loader', {
+    state: 'hidden'
+});
+```
+
+---
+
+# 7. API Coding Questions
+
+### Frequently Asked
+
+* Write GET request
+* POST request with payload
+* Validate status code
+* Validate nested JSON
+* Token handling
+* Header validation
+* Response schema validation
+* PUT vs PATCH example
+
+### Common Live Task
+
+```typescript
+Validate response contains user ID
+```
+
+---
+
+# 8. Java / TypeScript Concepts
+
+### Common Tricky Questions
+
+* var vs let vs const
+* == vs ===
+* String immutable?
+* async/await
+* Promise handling
+* Interface vs Type
+* Final/finally/finalize
+* Collection vs Collections
+* HashMap internal working
+* Exception handling
+
+---
+
+# 9. Logical Programs (INTERVIEW FAVORITES)
+
+### VERY COMMON
+
+* Pyramid pattern
+* Star pattern
+* Number pattern
+* Diamond pattern
+* Pascal triangle
+* Matrix diagonal
+* Matrix transpose
+
+### Example:
+
+```text
+*
+**
+***
+****
+```
+
+---
+
+# 10. Automation Framework Questions
+
+### HIGH CHANCE FOR SENIOR ROLES
+
+* Build framework from scratch
+* Folder structure
+* Why POM?
+* Reusable utilities
+* Retry analyzer
+* Screenshot utility
+* Reporting integration
+* CI/CD integration
+* Test data management
+* Cross-browser execution
+
+---
+
+# 11. Debugging Questions
+
+### SUPER IMPORTANT
+
+Interviewer may intentionally give broken code.
+
+You should identify:
+
+* Syntax issue
+* Locator issue
+* Async issue
+* Null issue
+* Wrong assertion
+* Timing issue
+
+### Example:
+
+```typescript
+await page.click('#submit');
+```
+
+Element not visible.
+
+You should say:
+
+```text
+I’ll first validate whether element is attached,
+visible, enabled, or inside iframe.
+Then I’ll use proper waits instead of hardcoded wait.
+```
+
+---
+
+# 12. Real-Time Scenario Questions
+
+### Most Important for Senior QA
+
+* How to handle flaky tests?
+* How to rerun failed tests?
+* Dynamic XPath strategy?
+* How to reduce maintenance?
+* How to handle test data?
+* How to validate Power BI data?
+* How to handle expired tokens?
+* How to optimize execution time?
+* Parallel execution strategy?
+
+These are VERY IMPORTANT for your profile because your resume strongly supports framework + API + AI + reporting + DB validation. 
+
+---
+
+# 🔥 HIGH PRIORITY PRACTICE ORDER
+
+## MUST PRACTICE DAILY
+
+1. String programs
+2. Array programs
+3. SQL queries
+4. Playwright locators
+5. API validations
+6. Async/await
+7. XPath writing
+8. Regex extraction
+9. Debugging broken code
+10. Framework explanation
+
+---
+
+# 🔥 FINAL INTERVIEW SECRET
+
+In live coding:
+
+* Don’t rush
+* Talk while coding
+* Explain approach first
+* Handle edge cases
+* Use meaningful variable names
+* Say WHY you use something
+
+Example:
+
+```text
+“I’m using DENSE_RANK here because duplicate salaries
+should still preserve ranking properly.”
+```
+
+That single line makes interviewer think:
+
+```text
+“This guy has real project experience.”
+```
+
+You already have strong resume depth for senior automation roles da macha 💪
+
